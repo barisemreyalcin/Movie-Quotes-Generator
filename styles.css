@@ -1,0 +1,107 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+body::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(img/bg-1.jpg) no-repeat center/ cover;
+    filter: blur(.3rem);
+}
+
+.opacity-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #21262c;
+    z-index: 1;
+    opacity: .6;
+}
+
+.container {
+    position: relative;
+    z-index: 5;
+    width: 50rem;
+    height: 40rem;
+}
+
+header {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    padding: .8rem;
+    width: 60%;
+    margin: 1rem auto;
+    background: transparent;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ede6de;
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem;
+    padding: 2rem 3rem;
+}
+
+.main-content .text-area {
+    line-height: 1.5;
+    letter-spacing: .2rem;
+}
+
+.main-content .text-area .quote {
+    font-size: 2.5rem;
+}
+
+.main-content .text-area .person {
+    margin: 2rem 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #21262c;
+}
+
+.btn-area button {
+    background-color: #21262c;
+    color: #ede6de;
+    font-size: 1.8rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.btn-area button:hover {
+    opacity: .9;
+}
+
+.btn-area button:active {
+    background-color: #16191d;
+}
