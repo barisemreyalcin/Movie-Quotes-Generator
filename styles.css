@@ -127,18 +127,18 @@ header {
         width: 100%;
         height: 20rem;
         border-radius: 1rem;
-        padding: 1rem 1.5rem;
+        padding: 1.2rem 1.8rem;
     }
     .main-content .text-area {
         line-height: 1;
         letter-spacing: .2rem;
     }
     .main-content .text-area .quote {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .main-content .text-area .movie {
         margin: 1.5rem 0;
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     .btn-area button {
         font-size: 1.3rem;
